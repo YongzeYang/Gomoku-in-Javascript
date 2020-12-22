@@ -1,0 +1,95 @@
+/* 默认UTF-8字符集 */
+
+@charset "utf-8";
+
+/* 默认边距为0 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* canvas元素绘制棋盘 */
+
+canvas {
+    display: block;
+    margin: 50px auto;
+    /* 添加阴影 */
+    box-shadow: -2px -2px 2px #e7e7e7, 5px 5px 5px #beab9c;
+}
+
+#text1 {
+    display: block;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: bold;
+    float: left;
+    margin: 10px 0 20px 30px;
+}
+
+#text2 {
+    display: block;
+    color: rgb(155, 179, 24);
+    font-size: 25px;
+    font-weight: bold;
+    float: left;
+    margin: 10px 0 20px 0;
+}
+
+#mode {
+    display: block;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#win {
+    display: block;
+    color: rgb(100, 0, 0);
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+button {
+    margin: 20px auto;
+    width: 200px;
+    height: 48px;
+    border: 1px solid rgb(32, 32, 32);
+    color: rgb(68, 68, 68);
+    line-height: 48px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    border-radius: 99px;
+}
+
+button:hover {
+    color: rgb(255, 255, 255);
+    background: rgb(187, 106, 0);
+}
+
+#main {
+    width: 800px;
+    height: 550px;
+    background-color: antiquewhite;
+    margin: auto;
+}
+
+#play {
+    width: 500px;
+    height: 550px;
+    background-color: beige;
+    float: left;
+    margin: auto;
+}
+
+#control {
+    width: 300px;
+    background-color: blanchedalmond;
+    float: left;
+    margin: auto;
+    padding: 50px 0 0 0;
+}
